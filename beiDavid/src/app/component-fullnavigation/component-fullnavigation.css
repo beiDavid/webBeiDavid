@@ -1,0 +1,115 @@
+.sparten{
+    margin-top: 8%;
+    height: 50rem;
+    width: 100%;
+    background-color: #121212;
+    color:white;
+}
+
+.animation{
+    height: 18rem;
+    margin: 0 auto;
+    padding: 20px;
+    transition: all 0.5s ease;
+
+}
+.elemend{
+    height: 50%;
+    width: 9rem;
+    background-color: #1e1e1e;
+    padding: 0.5rem;
+    border: 2px solid #505050 ;
+    border-radius: 32px;
+    transition: all 0.5s ease;
+    margin: 0 auto;
+}
+h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+     text-align: center;  
+     font-size: 1.8rem;
+      margin-top: 40px;
+}
+.spaltetitel{
+    margin-top: 0px;
+    width: 11rem;
+}
+.spaltetitel2{
+    margin-top: 0px;
+    width: 11rem;
+}
+.sparte1{
+    width: 46%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.sparte2{
+    width: 46%;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Handy Medium */
+@media (max-width: 1200px) {
+.sparten{
+    height: 40rem;
+    margin-top: 20%;
+}
+
+
+  .sparte1{
+    margin-bottom: 0rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.spaltetitel{
+    margin-top: 25px;
+  width: 6rem;
+   
+}
+.spaltetitel2{
+    margin-top: 28px;
+   width: 6rem;
+}
+.sparte2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.elemend{
+    height: 4rem;
+    width: 4rem;
+
+}
+.animation{
+height: 10rem;
+}
+h5{
+     font-size: 1.1rem;
+     font-weight: 100;
+        padding-left: 0px;
+         margin-top: 0px;
+}
+.cls-3, .cls-2, .cls-4,.cls-3, .cls-4, .cls-2{
+    stroke-width: 2px;
+}
+
+.cls3d-2, .cls3d-3{
+    stroke-width: 4px;
+}
+
+}
+
+/*hover*/
+
+.elemend:hover {
+  background-color: #7a6c18;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+.animation:hover{
+      transform: scale(1.05);
+
+}

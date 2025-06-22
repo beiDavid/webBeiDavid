@@ -1,0 +1,97 @@
+.sparten{
+    margin-top: 8%;
+    height: 50rem;
+    width: 100%;
+    background-color: #121212;
+    color:white;
+}
+
+.animation{
+    height: 18rem;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.elemend{
+    height: 63%;
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 0.5rem;
+    border: 2px solid #505050 ;
+    border-radius: 32px;
+    transition: all 0.5s ease;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: larger;
+}
+.spaltetitel{
+    margin-top: 50px;
+    width: 10rem;
+   
+}
+.spaltetitel2{
+    margin-top: 27px;
+    width: 10rem;
+}
+.sparte1{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+.sparte2{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Handy Medium */
+@media (max-width: 768px) {
+.sparten{
+    height: 40rem;
+    margin-top: 20%;
+}
+
+  .sparte1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.spaltetitel{
+    margin-top: 35px;
+    width: 6rem;
+    margin-left: -15px;
+   
+}
+.spaltetitel2{
+    margin-top: 28px;
+    width: 6rem;
+    margin-left: -16px;
+}
+.sparte2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.elemend{
+    height: 4rem;
+    width: 4rem;
+
+}
+.animation{
+height: 10rem;
+}
+h5{
+     font-size: smaller;
+}
+
+}
+
+/*hover*/
+
+.elemend:hover {
+  background-color: #7a6c18;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,187 @@
+.webbod{
+
+}
+.webentwicklungbanner{
+    background-image: url("resoucen/webbeispiel.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    border: 2px solid #505050 ;
+    
+}
+.webentwicklungbannerdetop{
+    background-image: url("resoucen/webbeispiel.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+    height: 25rem;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    border: 2px solid #505050 ;
+}
+
+.webebannerausrichtung{
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttonangbot{
+  width: 18rem;
+  height: 4rem;
+  margin: 0 auto;
+    background-color: #1e1e1e;
+    border: 2px solid #505050 ;
+    border-radius: 32px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 1.6rem;
+}
+.qualiteatsliste{
+  width: 38%;
+  margin-left: 6%;
+  color:white;
+  font-family: Helvetica, sans-serif;
+  font-size: 2.0rem;
+  
+}
+.checksymol{
+  padding-top: 35px;
+  padding-right: 10px;
+  width: 29px;
+  height: 20px;
+}
+
+.qualiteatzeile{
+  display: flex;
+  height: 3.5rem;
+  width: 30rem;
+}
+.webtitel{
+  margin-left: 3%;
+    color:white;
+  font-family: Helvetica, sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 0.5 = 50% Verdunkelung */
+  z-index: 1;
+}
+.trenlinie{
+  
+  background-color: white;
+  height: 2px;
+  width: 30%;
+}
+
+
+.qualiteattext{
+  margin-top: 30px;
+  
+  padding-top: 3px;
+  padding-bottom: 5px;
+  width: 26rem;
+  border-radius: 32px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  h3{
+    margin-bottom: 10px;
+  }
+}
+
+.qualiteatstexte{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 2%;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.webbody{
+  width: 90%;
+  margin: 0 auto;
+}
+h4{
+  font-weight: 100 !important;
+  font-size: 0,5rem !important;
+}
+
+
+@keyframes floatBackground {
+  from {
+    background-position: center 0px;
+  }
+  to {
+    background-position: center 10px;
+  }
+}
+
+@media (max-width: 900px){
+
+.webtitel{
+  margin-left: 3%;
+    color:white;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.7rem;
+
+}
+.qualiteatsliste{
+  margin-top: 30px;
+  width: 20rem;
+  margin-left: 3%;
+  color:white;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+
+}
+.qualiteatzeile{
+  display: flex;
+  height: 2.0rem;
+}
+.checksymol{
+  padding-top: 25px;
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.qualiteattext{
+  margin-top: 100px;
+  padding: 0rem;
+  width: 30rem;
+  border-radius: 32px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+  h3{
+    margin-bottom: 10px;
+  }
+  
+}
+.qualiteatstexte{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 3%;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+}

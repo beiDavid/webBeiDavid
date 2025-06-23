@@ -5,5 +5,6 @@ import { ComponentFullnavigation } from './component-fullnavigation/component-fu
 
 export const routes: Routes = [
   { path: '', component: ComponentFullnavigation },
+   { path: 'home', component: ComponentFullnavigation },
   { path: 'webentwicklung', component: ComponentWebentwicklung }
 ];

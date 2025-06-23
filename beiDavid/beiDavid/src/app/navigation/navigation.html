@@ -1,5 +1,6 @@
-<div class="menunav">
-<div class="logobeidavid">
+<div class="menunav" [class.hidden]="!isVisible">
+<div class="menuinhalt" >
+<div class="logobeidavid" (click)="homerouting()">
     <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.83 58.53">
   <defs>
     <style>
@@ -33,5 +34,12 @@
   </g>
 </svg>
 </div>
+@if(!isVisible){
+<div class="dorpmenu" (click)="openmenu()"></div>
+}
 
+<div class="weiteremeu">
+ <a class="weiteresmeubutton">Menü</a>
+</div>
+</div>
 </div>
